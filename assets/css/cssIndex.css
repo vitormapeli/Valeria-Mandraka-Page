@@ -54,6 +54,7 @@
     border: none;
     color: white;
     font-family: MerriwheaterLight;
+    font-size: 20px;
 }
 
 .divMenu{
@@ -412,13 +413,17 @@ footer{
 .navigationMobile{
     display: flex;
     flex-direction: row ;
-    width: 85%;
+    width: 100%;
     gap: 15px;
     align-items: center;
+    justify-content: start
 }
 
 .h1Navigation{
     margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .a_texto{
