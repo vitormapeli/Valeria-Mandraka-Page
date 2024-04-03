@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/cssBlog.css">
+    <link rel="shortcut icon" href="assets/favicon/plFavicon.png" type="image/x-icon">
+    <title>Valeria Mandraka | Blog</title>
+</head>
+<body>
+    <header>
+        <nav class="navigation">
+            <a href="/" id="aBranco"><h1 class="h1Navigation">Valeria Mandraka</h1></a>
+
+            <ul>
+                <li class="liNavigation">
+                    <a href="/" id="aBranco"> Home </a>
+                </li>
+                <li class="liNavigation">
+                    <a href="Blog.html" id="aBranco">Blog</a>
+                </li>
+                <li class="liNavigation">
+                    <a href="/#section_rolagem" id="aBranco">Sobre mim</a>
+                </li>
+            </ul>
+        </nav>
+
+        <nav class="navigationMobile">
+            <button class="btnNavigation" id="menuMostrar">
+                ☰
+            </button>
+            <h1 class="h1Navigation">
+                <a href="/" id="aBranco">Valeria Mandraka</a>
+            </h1>
+        </nav>
+
+        <section class="menuLateral" id="menuLateral">
+           <div class="divMenu">
+            <button class="btnClose">
+                <img src="assets/icons/arrow-bar-left.svg" id="menuFechar">
+            </button>
+           </div>
+            <button class="btnMenu">
+               <a href="/" id="aBranco"> INÍCIO </a>
+            </button>
+            <button class="btnMenu">
+            <a href="Blog.html" id="aBranco"> BLOG </a>
+            </button>
+            <button class="btnMenu">
+            <a href="/#section_rolagem" id="aBranco"> SOBRE MIM </a>
+            </button>
+        </section>
+    </header>
+
+    <main>
+        <section class="section-containers">
+            <section class="sectionPostagens">
+                <section class="postagemBlog" id="Postagem1">
+
+                    <div>
+                        <div class="subtituloPostagem"><p class="BlogMain3">Blog - Última atividade</p><p class="DataMain3">Postado em 19/03/2024</p></div>
+                        <h3 class="tituloBlog">Titulo postagem</h3>
+                    </div>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1ABExkevNQ3aydkxNfhsvIcq7o0VCa7NH60OUea5zunQA9K06ds7O8G4jgLJGi5zmWrk&usqp=CAU" class="img" width="100%" height="500px">
+                    <p class="descBlog">No último sábado, tive a imensa alegria de liderar uma iniciativa solidária que alcançou corações e lares na comunidade do Papagaio. Com o apoio de voluntários dedicados e generosas doações de empresas locais, conseguimos distribuir 1.600 cestas básicas para as famílias que mais precisam.<br><br>
+
+                        Foi uma experiência emocionante estar presente durante todo o processo, desde a organização até a entrega pessoal das cestas. Ver o sorriso e a gratidão nos rostos das pessoas que receberam esse auxílio foi verdadeiramente inspirador.<br><br>
+                        Nossa missão sempre foi promover a solidariedade e o apoio mútuo em nossa comunidade, e essa iniciativa reforçou ainda mais nosso compromisso. Saber que conseguimos oferecer um alívio imediato para tantos lares que enfrentam dificuldades diárias é incrivelmente gratificante.<br><br>
+                        
+                        A entrega das cestas básicas não foi apenas sobre fornecer alimentos essenciais, mas também sobre mostrar às pessoas que elas não estão sozinhas em suas lutas. Foi sobre fortalecer os laços comunitários e lembrar a todos nós que, juntos, somos capazes de superar qualquer desafio.<br><br>
+                        
+                        Agradeço do fundo do meu coração a todos os voluntários, doadores e membros da comunidade que tornaram possível esse gesto de solidariedade. A verdadeira essência da bondade humana brilhou intensamente no bairro do Papagaio neste dia, e estou profundamente honrado por ter feito parte disso.<br><br>
+                    </p>
+
+                </section>
+            </section>
+
+            <section class="sectionArtigos">
+                <h3 class="h3Artigos">Artigos</h3>
+                    <ol class="olArtigos">
+                        <li>
+                           Titulo Postagem
+                        </li>
+                        <li>
+                            Titulos Postagem 2
+                        </li>
+                    </ol>
+            </section>
+        </section>
+    </main>
+
+    <footer>
+        <section class="sectionFooter">
+            <div class="textFooter">
+                <ul class="ulFooter">
+                    <li class="liFooter">
+                        <a href="/" id="aBranco"> Inicio </a>
+                    </li>
+                    <li class="liFooter">
+                        <a href="Blog.html" id="aBranco"> Blog </a>
+                    </li>
+                    <li class="liFooter" id="BtnRolagem">
+                        <a href="/#section_rolagem" id="aBranco">Sobre mim</a>
+                    </li>
+                </ul>
+
+                <div>
+                    <a href="/" id="aBranco"><h3 class="h3Footer">Valeria Mandraka</h3></a>
+                </div>
+            </div>
+            <div class="btns_footer">
+                <button class="btnInstagram"><img src="assets/icons/instagram.svg"alt="icon Instagram" id="btnInstagram"></button>
+                <button class="btnWhatsapp"><img src="assets/icons/whatsapp.svg" alt="icon Whatsapp" id="btnWhatsapp"></button>
+                <button class="btnWhatsapp"><img src="assets/icons/facebook.svg" alt="icon Whatsapp" id="btnWhatsapp"></button>
+            </div>
+            
+        </section>
+        <section class="sectionFooter2">
+            <h3 class="h3Footer2">
+                VM
+            </h3>
+            <p class="pFooter2">Copyright @2024 Todos os direitos reservados.</p>
+        </section>
+    </footer>
+
+
+    <script>
+        var menuMostrar = document.getElementById("menuMostrar");
+        var menuLateral = document.getElementById("menuLateral");
+        var menuFechar = document.getElementById("menuFechar");
+    
+        menuMostrar.addEventListener("click", function() {
+            menuLateral.style.transform = 'translateX(0)';
+        });
+
+        menuFechar.addEventListener("click", function(){
+            menuLateral.style.transform = "translateX(-100%)";
+        })
+
+        document.addEventListener("click", function(event) {
+            if (!menuLateral.contains(event.target) && event.target !== menuMostrar) {
+                // Remova a classe 'show-menu' para ocultar o menu lateral
+                menuLateral.style.transform = "translateX(-100%)";
+            }
+        });
+    </script>
+</body>
+</html>

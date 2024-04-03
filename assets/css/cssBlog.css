@@ -1,0 +1,481 @@
+@font-face {
+    font-family: LoraBold; /* Escolha um nome para a sua fonte */
+    src: url('/assets/fonts/static/Lora-Bold.ttf'); /* Substitua o caminho pelo local onde você colocou o arquivo da fonte */
+    font-weight: 700;
+ 
+}
+
+@font-face {
+    font-family: MerriwheaterLight; /* Escolha um nome para a sua fonte */
+    src: url('/assets/fonts/static/Merriweather-Light.ttf'); /* Substitua o caminho pelo local onde você colocou o arquivo da fonte */
+    font-weight: 300;
+ 
+}
+
+::-webkit-scrollbar {
+    width: 10px; /* Largura da barra de rolagem */
+}
+
+/* Cor de fundo da barra de rolagem */
+::-webkit-scrollbar-track {
+    background: #9badfd5e;
+}
+
+/* Estilo do botão na barra de rolagem */
+::-webkit-scrollbar-thumb {
+    background: #072E46; /* Cor do botão da barra de rolagem */
+    transition: 0.3s; 
+    border-radius: 15px;
+}
+
+/* Cor quando o mouse passa sobre a barra de rolagem */
+::-webkit-scrollbar-thumb:hover {
+    background: #116DA5;
+    transition: 0.3s; 
+}
+
+
+
+#aBranco{
+    text-decoration: none;
+    color: white;
+}
+
+#aBranco:hover{
+    color: #dadada;
+}
+
+body{
+    margin: 0px;
+    border: 0px;
+    background: linear-gradient(135.32deg, #072D44 0%, #0E5A88 50.3%, #1171AA 75.14%);
+    position: relative;
+    min-height: 100vh;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    border-bottom: 2px solid #116DA5;
+    align-items: end;
+}
+
+.h1Navigation{
+    margin-bottom: 0px;
+    font-size: 35px;
+    cursor: pointer;
+}
+
+.h1Navigation:hover{
+    color: #dadada;
+}
+
+.liNavigation{
+    margin-bottom: 0px;
+    font-size: 35px;
+    cursor: pointer;
+    display: flex;
+    align-items: end;
+}
+
+.liNavigation:hover{
+    color: #dadada;
+}
+
+ul{
+    display: flex;
+    gap: 25px;
+    list-style: none;
+    margin-bottom: 0px;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+}
+
+.section-containers{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-top: 45px;
+    gap: 40px;
+}
+
+.sectionPostagens{
+    background: rgba(14, 89, 133, 0.71);
+    border-radius: 16px;
+    padding: 15px 15px;
+    color: #ffffff;
+    width: 80%;
+}
+
+.BlogMain3, .DataMain3{
+    color: rgba(247, 247, 247, 0.49);
+    margin-bottom: 0px;
+    font-family: MerriwheaterLight;
+    font-size: 15px;
+}
+.subtituloPostagem{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.tituloBlog{
+    color: #ffffff;
+    font-size: 30px;
+    margin-top: 0px;
+    margin-bottom: 7px;
+    font-family: LoraBold;
+}
+
+.descBlog{
+    font-size: 18px;
+    font-family: MerriwheaterLight;
+    /* border-bottom: 1px solid #ffffffbd;
+    padding-bottom: 30px; */
+}
+
+.sectionArtigos{
+    background-color: #072E46;
+    height: 15vh;
+    border-radius: 5px;
+    padding: 0px 15px;
+    color: white;
+    width: 15%;
+}
+
+.h3Artigos{
+    font-family: LoraBold;
+    border-bottom: 1px solid #ffffff;
+    padding-bottom: 10px;
+    margin-bottom: 0px;
+}
+
+.liArtigos{
+    font-family: MerriwheaterLight;
+}
+
+.olArtigos{
+    padding-left: 25px;
+    color: #0E5A87;
+    font-family: MerriwheaterLight;
+}
+/* footer =============================================================*/
+
+.btnInstagram, .btnWhatsapp{
+    border: none;
+    background-color: #08344F;
+    border-radius: 17px;
+    width: 50px;
+    height: 50px;
+    transition: 0.3s;
+}
+
+.btnInstagram:hover, .btnWhatsapp:hover{
+    background-color: rgb(3, 43, 68);
+    cursor: pointer;
+    transition: 0.3s; 
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #072D44;
+    align-items: center;
+    color: #ffffff;
+    margin-top: 6%;
+}
+
+.sectionFooter{
+    margin-top: 25px;
+    width: 71%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.textFooter{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 35px;
+}
+
+.sectionFooter2{
+    width: 71%;
+    border-top: 1px solid #195B84;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+    gap: 10px;
+    color: #0B4C73;
+    padding-bottom: 15px;
+}
+
+.h3Footer{
+    font-size: 35px;
+    font-family: LoraBold;
+}
+
+.ulFooter{
+    padding: 0px;
+    font-size: 20px;
+    font-family: MerriwheaterLight;
+    cursor: pointer;
+}
+
+.liFooter:hover{
+    color: #dadada;
+}
+
+.h3Footer2{
+    font-size: 25px;
+    margin-bottom: 0px;
+    margin-top: 7px;
+}
+
+.pFooter2{
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+
+.btnNavigation{
+    border: none;
+    background-color: transparent;
+    font-size: 40px;
+    color: white;
+    cursor: pointer;
+}
+
+.navigationMobile{
+    display: flex;
+    flex-direction: row ;
+    width: 85%;
+    gap: 15px;
+    align-items: center;
+}
+
+.h1Navigation{
+    margin: 0px;
+    
+}
+
+.a_texto{
+    color: #DFE1E3;
+    font-size: 20px;
+    font-family: MerriwheaterLight;
+}
+
+.h2Header{
+    display: none;
+    font-family: LoraBold;
+}
+
+.menuLateral{
+    position: fixed;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    top: 0;
+    width: 75%;
+    height: 100vh;
+    background-color: #072D44;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease;
+}
+
+.btnMenu{
+    height: 60px;
+    background-color: #021e30;
+    border: none;
+    color: white;
+    font-family: MerriwheaterLight;
+}
+
+.divMenu{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 50px;
+    margin-top: 4%;
+}
+
+.btnClose{
+    border: none;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+}
+
+    @media (max-width: 480px) {
+    
+        .navigation{
+            display: none;
+        }
+
+        .sectionArtigos{
+            display: none;
+        }
+
+        .section-containers{
+            gap: 0px;
+            justify-content: center;
+            width: 95%;
+        }
+
+        .sectionPostagens{
+            width: 100%;
+        }
+
+        .ulFooter{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }   
+    
+        .btns_footer{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+    
+        .h3Footer{
+            font-size: 30px;
+            margin-bottom: 10px;
+        }
+    
+        .pFooter2{
+            font-size: 15px;
+        }
+
+        .img{
+            height: 50%;
+        }
+    }
+
+    @media (min-width: 481px) and (max-width: 767px) {
+        .navigation{
+            display: none;
+        }
+
+        .sectionArtigos{
+            display: none;
+        }
+
+        .section-containers{
+            gap: 0px;
+            justify-content: center;
+            width: 95%;
+        }
+
+        .sectionPostagens{
+            width: 100%;
+        }
+
+        .ulFooter{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }   
+    
+        .btns_footer{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+    
+        .h3Footer{
+            font-size: 30px;
+            margin-bottom: 10px;
+        }
+    
+        .pFooter2{
+            font-size: 15px;
+        }
+
+        .img{
+            height: 50%;
+        }   
+    } 
+      
+     
+    @media (min-width: 768px) and (max-width: 991px) {
+        .navigation{
+            display: none;
+        }
+
+        .sectionArtigos{
+            display: none;
+        }
+
+        .section-containers{
+            gap: 0px;
+            justify-content: center;
+            width: 95%;
+        }
+
+        .sectionPostagens{
+            width: 100%;
+        }
+
+        .ulFooter{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }   
+    
+        .btns_footer{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+    
+        .h3Footer{
+            font-size: 30px;
+            margin-bottom: 10px;
+        }
+    
+        .pFooter2{
+            font-size: 15px;
+        }
+
+        .img{
+            height: 50%;
+        }    
+    } 
+      
+     
+    @media (min-width: 992px) and (max-width: 1199px) {
+      .navigationMobile{
+        display: none;
+      }  
+    } 
+      
+      /* Estilos para telas médias (1200px a 1439px) */
+    @media (min-width: 1200px) and (max-width: 1439px) {
+        .navigationMobile{
+            display: none;
+        }
+    } 
+      
+      
+      /* Estilos para telas grandes (1440px e acima) */
+    @media (min-width: 1440px) {
+        .navigationMobile{
+            display: none;
+        }
+    }
