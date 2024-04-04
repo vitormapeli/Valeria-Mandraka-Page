@@ -86,6 +86,8 @@ body{
     margin: 0px;
     border: 0px;
     background: linear-gradient(135.32deg, #072D44 0%, #0E5A88 50.3%, #1171AA 75.14%);
+    position: relative;
+    height: auto;
 }
 
 header{
@@ -321,6 +323,10 @@ main{
     font-family: MerriwheaterLight;
     font-size: 15px;
 }
+
+.DataMain3{
+    text-align: end;
+}
 .subtituloPostagem{
     display: flex;
     flex-direction: row;
@@ -347,6 +353,7 @@ footer{
     background-color: #072D44;
     align-items: center;
     color: #ffffff;
+
 }
 
 .sectionFooter{
@@ -430,6 +437,8 @@ footer{
     color: #DFE1E3;
     font-size: 20px;
     font-family: MerriwheaterLight;
+    position: absolute;
+    margin-bottom: 10%;
 }
 
 .h2Header{
@@ -493,9 +502,9 @@ footer{
     }
 
     .descBlog{
-      max-height: 200px;
-      text-overflow: ellipsis;
-      overflow: hidden;
+        max-height: 200px;
+          text-overflow: ellipsis;
+          overflow: hidden;
     }
     
     .p_texto{
@@ -706,8 +715,15 @@ footer{
     
         .sectionMain3{
             width: 90%;
+
         }
     
+        .sectionMain3::after{
+            content: "";
+            display: table;
+            clear: both;
+        }
+
         .partidoMain{
             width: 100%;
         }
