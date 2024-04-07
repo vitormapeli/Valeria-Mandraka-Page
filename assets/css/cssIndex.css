@@ -720,6 +720,10 @@ footer{
         flex-direction: column;
     }
 
+    .imgValeria{
+        width: 50%;
+    }
+
     .navigation{
         display: none;
     }
@@ -794,14 +798,18 @@ footer{
     }
 
     
-
-    .imgValeria{
-        width: 100%;
-    }
     .imgLutadora{
-        width: 100%;
+        width: 50%;
     }
 
+    .divimgLutadora{
+        display: flex;
+        justify-content: center;
+    }
+
+    .imgboxMain2 img{
+        width: 30%;
+    }
     .ulFooter{
         display: flex;
         flex-direction: column;

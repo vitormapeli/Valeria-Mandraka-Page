@@ -326,8 +326,18 @@ footer{
     cursor: pointer;
 }
 
+.pAgradecimentos{
+    font-family: MerriwheaterLight;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
     @media (max-width: 480px) {
     
+        .sectionAgradecimentos{
+            width: 71%;
+        }
+
         .navigation{
             display: none;
         }
@@ -373,6 +383,11 @@ footer{
     }
 
     @media (min-width: 481px) and (max-width: 767px) {
+
+        .sectionAgradecimentos{
+            width: 71%;
+        }
+
         .navigation{
             display: none;
         }
@@ -419,6 +434,11 @@ footer{
       
      
     @media (min-width: 768px) and (max-width: 991px) {
+
+        .sectionAgradecimentos{
+            width: 71%;
+        }
+
         .navigation{
             display: none;
         }
@@ -465,15 +485,33 @@ footer{
       
      
     @media (min-width: 992px) and (max-width: 1199px) {
+
+        .sectionAgradecimentos{
+            width: 90%;
+        }
+
       .navigationMobile{
         display: none;
       }  
+
+      .sectionFooter, .sectionFooter2{
+        width: 90%;
+    }
     } 
       
       /* Estilos para telas médias (1200px a 1439px) */
     @media (min-width: 1200px) and (max-width: 1439px) {
+
+        .sectionAgradecimentos{
+            width: 90%;
+        }
+
         .navigationMobile{
             display: none;
+        }
+
+        .sectionFooter, .sectionFooter2{
+            width: 90%;
         }
     } 
       
