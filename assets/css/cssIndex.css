@@ -243,6 +243,7 @@ main{
     flex-direction: column;
     justify-content: space-between;
     align-items: end;
+    width: 70%;
 }
 
 .descMain{
@@ -283,25 +284,66 @@ main{
 }
 
 .partidoMain{
-    width: 40%;
+    width: 45%;
 }
-.PpartidoMain{
+
+.sectionMandraka{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.subtituloInfo{
     color: rgba(0, 0, 0, 0.49);
+    font-family: MerriwheaterLight;
+    margin-bottom: 0px;
+    font-size: 15px;
+    width: 100%;
+}
+
+.tituloMandraka{
+    color: #000000;
+    margin-top: 0px;
+    font-size: 30px;
+    font-family: LoraBold;
+    margin-bottom: 10px;   
+    width: 100%;
+}
+
+.pAgradecimentos{
+    font-family: MerriwheaterLight;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.descMandraka{
+    color: rgba(0, 0, 0, 0.66);
+    font-family: MerriwheaterLight;
+    margin-bottom: 0px;
+    font-size: 20px;
+    margin-top: 0px;
+}
+
+.PpartidoMain{
+    color: rgba(255, 255, 255, 0.49);
     font-family: MerriwheaterLight;
     margin-bottom: 0px;
     font-size: 15px
 }
 
 .titulopartidoMain{
-    color: #000000;
+    color: #ffffff;
     margin-top: 0px;
     font-size: 30px;
     font-family: LoraBold;
     margin-bottom: 10px;
 }
 
+
 .descpartidoMain{
-    color: rgba(0, 0, 0, 0.66);
+    color: rgba(255, 255, 255, 0.66);
     font-family: MerriwheaterLight;
     margin-bottom: 0px;
     font-size: 20px;
@@ -446,6 +488,9 @@ footer{
     font-family: LoraBold;
 }
 
+
+
+
 @media (max-width: 480px) {
     body{
         display: flex;
@@ -482,6 +527,242 @@ footer{
     }
     .divSobremimMain{
         align-items: start;
+        width: 100%;
+    }
+
+    .sectionMandraka{
+        width: 100%;
+    }
+
+    .sectionAgradecimentos{
+        width: 71%;
+    }
+
+    .divSobremimMain_div1{
+        width: 100%;
+    }
+    .divSobremimMain_div2{
+        display: none;
+    }
+
+    .sectionMain2{
+        flex-direction: column;
+        gap: 20px;
+        width: 90%;
+    }
+
+    .sectionMain3{
+        width: 90%;
+    }
+
+    .partidoMain{
+        width: 100%;
+    }
+
+    .descBlog{
+        max-height: 200px;
+          text-overflow: ellipsis;
+          overflow: hidden;
+    }
+    
+    .p_texto{
+        display: flex;
+        justify-content: end;
+    }
+
+    
+
+    .imgValeria{
+        width: 100%;
+    }
+    .imgLutadora{
+        width: 100%;
+    }
+
+    .ulFooter{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }   
+
+    .btns_footer{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .h3Footer{
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+
+    .pFooter2{
+        font-size: 15px;
+    }
+
+}/* OK */
+
+@media (min-width: 481px) and (max-width: 767px) {
+    body{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .navigation{
+        display: none;
+    }
+
+    .btnFalecomigo{
+        width: 200px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .sectionHeader{
+        flex-direction: column;
+        gap: 20px;
+        padding-top: 10%;
+    }
+
+    .imgHeaderbox{
+        justify-content: center;
+    }
+
+    .sectionMainContainer{
+        padding-top: 5%;
+        gap: 30px;
+    }
+    .sectionMain1{
+        flex-direction: column-reverse;
+        width: 90%;
+    }
+    .divSobremimMain{
+        align-items: start;
+        width: 100%;
+    }
+
+    .sectionMandraka{
+        width: 100%;
+    }
+
+    .sectionAgradecimentos{
+        width: 71%;
+    }
+
+    .divSobremimMain_div1{
+        width: 100%;
+    }
+    .divSobremimMain_div2{
+        display: none;
+    }
+
+    .sectionMain2{
+        flex-direction: column;
+        gap: 20px;
+        width: 90%;
+    }
+
+    .sectionMain3{
+        width: 90%;
+    }
+
+    .partidoMain{
+        width: 100%;
+    }
+
+    .descBlog{
+        max-height: 200px;
+          text-overflow: ellipsis;
+          overflow: hidden;
+    }
+    
+    .p_texto{
+        display: flex;
+        justify-content: end;
+    }
+
+    
+
+    .imgValeria{
+        width: 100%;
+    }
+    .imgLutadora{
+        width: 100%;
+    }
+
+    .ulFooter{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }   
+
+    .btns_footer{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .h3Footer{
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+
+    .pFooter2{
+        font-size: 15px;
+    }
+
+}/* OK */
+      
+     
+@media (min-width: 768px) and (max-width: 991px) {
+    body{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .navigation{
+        display: none;
+    }
+
+    .btnFalecomigo{
+        width: 200px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .sectionHeader{
+        flex-direction: column;
+        gap: 20px;
+        padding-top: 10%;
+    }
+
+    .imgHeaderbox{
+        justify-content: center;
+    }
+
+    .sectionMainContainer{
+        padding-top: 5%;
+        gap: 30px;
+    }
+    .sectionMain1{
+        flex-direction: column-reverse;
+        width: 90%;
+    }
+    .divSobremimMain{
+        align-items: start;
+        width: 100%;
+    }
+
+    .sectionMandraka{
+        width: 100%;
+    }
+
+    .sectionAgradecimentos{
+        width: 71%;
+    }
+
+    .divSobremimMain_div1{
+        width: 100%;
     }
     .divSobremimMain_div2{
         display: none;
@@ -543,480 +824,166 @@ footer{
     }
 
 }
-
-    @media (min-width: 481px) and (max-width: 767px) {
-        body{
-            display: flex;
-            flex-direction: column;
-
-        }
-
-        .navigation{
-            display: none;
-        }
-    
-        .btnFalecomigo{
-            width: 200px;
-            padding-left: 0px;
-            padding-right: 0px;
-        }
-    
-        .sectionHeader{
-            flex-direction: column;
-            padding-top: 5%;
-            height: auto;
-        }
-    
-        .imgHeaderbox{
-            justify-content: center;
-        }
-    
-        .sectionMainContainer{
-            padding-top: 5%;
-            gap: 30px;
-        }
-        .sectionMain1{
-            flex-direction: column-reverse;
-            width: 90%;
-        }
-        .divSobremimMain{
-            align-items: start;
-        }
-        .divSobremimMain_div2{
-            display: none;
-        }
-    
-        .sectionMain2{
-            flex-direction: column;
-            gap: 20px;
-            width: 90%;
-        }
-    
-        .sectionMain3{
-            width: 90%;
-        }
-    
-        .partidoMain{
-            width: 100%;
-        }
-    
-        .descBlog{
-          max-height: 200px;
-          text-overflow: ellipsis;
-          overflow: hidden;
-        }
-        
-        .p_texto{
-            display: flex;
-            justify-content: end;
-        }
-    
-        
-    
-        .imgValeria{
-            width: 100%;
-        }
-        .imgLutadora{
-            width: 100%;
-        }
-    
-        .ulFooter{
-            display: flex;
-            flex-direction: column;
-            gap: 10px;
-        }   
-    
-        .btns_footer{
-            display: flex;
-            flex-direction: column;
-            gap: 10px;
-        }
-    
-        .h3Footer{
-            font-size: 30px;
-            margin-bottom: 10px;
-        }
-    
-        .pFooter2{
-            font-size: 15px;
-        }
-      } /* OK */
       
      
-      @media (min-width: 768px) and (max-width: 991px) {
-        body{
-            display: flex;
-            flex-direction: column;
+@media (min-width: 992px) and (max-width: 1199px) {
+    .navigationMobile{
+        display: none;
+    }
 
-        }
+    .navigation{
+        align-items: end;
+    }
 
-        .h1Navigation{
-            font-size: 60px;
-        }
+    .sectionMain1{
+        flex-direction: column-reverse;
+    }
 
-        .btnNavigation{
-            font-size: 60px;
-        }
+    .divSobremimMain{
+        width: 100%;
+        align-items: start;
+    }
 
-        .pHeader{
-            font-size: 40px;
-        }
+    .divSobremimMain_div1{
+        width: 100%;
+    }
 
-        .navigation{
-            display: none;
-        }
+    .divSobremimMain_div2{
+        display: none;
+    }
+    .sectionHeader{
+        margin-top: 15%;
+    }
+
+    .h2Header{
+        display: block;
+    }
     
-        .btnFalecomigo{
-            height: 80px;
-            font-size: 40px;
-            width: 280px;
-            padding-left: 0px;
-            padding-right: 0px;
-        }
+    .h3Footer{
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
 
-        #btnInstagram, #btnWhatsapp{
-            width: 50px;
-        }
-        .btnInstagram, .btnWhatsapp{
-            height: 80px;
-            width: 80px;
-        }
+    .pFooter2{
+        font-size: 15px;
+    }
+
+    .sobremimMain{
+        font-size: 40px;
+    }
+
+    .descMain{
+        font-size: 25px;
+    }
+
+    .divimgLutadora{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+
+    .titulopartidoMain{
+        font-size: 40px;
+    }
+
+    .descpartidoMain{
+        font-size: 25px;
+    }
+
+    .tituloBlog{
+        font-size: 40px;
+    }
+
+    .descBlog{
+        font-size: 30px;
+    }
+
+    .BlogMain3{
+        font-size: 20px;
+    }
+
+    .DataMain3{
+        font-size: 20px;
+    }
+
+    .PpartidoMain{
+        font-size: 20px;
+    }
+
+    .infoMain{
+        font-size: 20px;
+    }
+
+    .p_texto{
+        font-size: 25px;
+    }
+
+    .sectionMain2{
+        width: 90%;
+    }
+
+    .sectionFooter{
+        width: 90%;
+    }
+
+    .sectionFooter2{
+        width: 90%;
+    }
     
-        .sectionHeader{
-            flex-direction: column;
-            padding-top: 5%;
-            height: auto;
-        }
+    .sectionAgradecimentos{
+        width: 90%;
+    }
+
+    .descBlog{
+        max-height: 300px;
+        text-overflow: ellipsis;
+        overflow: hidden;
+    }   
     
-        .imgHeaderbox{
-            justify-content: center;
-        }
-    
-        .sectionMainContainer{
-            padding-top: 5%;
-            gap: 30px;
-        }
-        .sectionMain1{
-            flex-direction: column-reverse;
-            width: 90%;
-        }
-        .divSobremimMain{
-            align-items: start;
-        }
-        .divSobremimMain_div2{
-            display: none;
-        }
-    
-        .sectionMain2{
-            flex-direction: column;
-            gap: 20px;
-            width: 90%;
-        }
-    
-        .sectionMain3{
-            width: 90%;
+    .p_texto{
+        display: flex;
+        justify-content: end;
+    }
 
-        }
-    
-        .sectionMain3::after{
-            content: "";
-            display: table;
-            clear: both;
-        }
-
-        .partidoMain{
-            width: 100%;
-        }
-    
-        .descBlog{
-          max-height: 200px;
-          text-overflow: ellipsis;
-          overflow: hidden;
-        }
-        
-        .p_texto{
-            display: flex;
-            justify-content: end;
-        }
-    
-        
-    
-        .imgValeria{
-            width: 100%;
-        }
-        .imgLutadora{
-            width: 100%;
-        }
-    
-        .ulFooter{
-            display: flex;
-            flex-direction: column;
-            gap: 10px;
-            font-size: 30px;
-        }   
-    
-        .btns_footer{
-            display: flex;
-            flex-direction: column;
-            gap: 10px;
-        }
-    
-        .h3Footer{
-            font-size: 30px;
-            margin-bottom: 10px;
-        }
-    
-        .pFooter2{
-            font-size: 15px;
-        }
-
-        .sobremimMain{
-            font-size: 40px;
-        }
-
-        .descMain{
-            font-size: 30px;
-        }
-
-        .titulopartidoMain{
-            font-size: 40px;
-        }
-
-        .descpartidoMain{
-            font-size: 30px;
-        }
-
-        .tituloBlog{
-            font-size: 40px;
-        }
-
-        .descBlog{
-            font-size: 30px;
-        }
-
-        .BlogMain3{
-            font-size: 20px;
-        }
-
-        .DataMain3{
-            font-size: 20px;
-        }
-
-        .PpartidoMain{
-            font-size: 20px;
-        }
-
-        .infoMain{
-            font-size: 20px;
-        }
-
-        .p_texto{
-            font-size: 25px;
-        }
-      } /* OK */
-      
-     
-      @media (min-width: 992px) and (max-width: 1199px) {
-        body{
-            display: flex;
-            flex-direction: column;
-
-        }
-
-        .h1Navigation{
-            font-size: 60px;
-        }
-
-        .btnNavigation{
-            font-size: 60px;
-        }
-
-        .pHeader{
-            font-size: 40px;
-        }
-
-        .navigation{
-            display: none;
-        }
-    
-        .btnFalecomigo{
-            height: 80px;
-            font-size: 40px;
-            width: 280px;
-            padding-left: 0px;
-            padding-right: 0px;
-        }
-
-        #btnInstagram, #btnWhatsapp{
-            width: 50px;
-        }
-        .btnInstagram, .btnWhatsapp{
-            height: 80px;
-            width: 80px;
-        }
-    
-        .sectionHeader{
-            flex-direction: column;
-            padding-top: 5%;
-            height: auto;
-        }
-    
-        .imgHeaderbox{
-            justify-content: center;
-        }
-    
-        .sectionMainContainer{
-            padding-top: 5%;
-            gap: 30px;
-        }
-        .sectionMain1{
-            flex-direction: column-reverse;
-            width: 90%;
-        }
-        .divSobremimMain{
-            align-items: start;
-        }
-        .divSobremimMain_div2{
-            display: none;
-        }
-    
-        .sectionMain2{
-            flex-direction: column;
-            gap: 20px;
-            width: 90%;
-        }
-    
-        .sectionMain3{
-            width: 90%;
-        }
-    
-        .partidoMain{
-            width: 100%;
-        }
-    
-        .descBlog{
-          max-height: 200px;
-          text-overflow: ellipsis;
-          overflow: hidden;
-        }
-        
-        .p_texto{
-            display: flex;
-            justify-content: end;
-        }
-    
-        
-    
-        .imgValeria{
-            width: 100%;
-        }
-        .imgLutadora{
-            width: 100%;
-        }
-    
-        .ulFooter{
-            display: flex;
-            flex-direction: column;
-            gap: 10px;
-            font-size: 30px;
-        }   
-    
-        .btns_footer{
-            display: flex;
-            flex-direction: column;
-            gap: 10px;
-        }
-    
-        .h3Footer{
-            font-size: 30px;
-            margin-bottom: 10px;
-        }
-    
-        .pFooter2{
-            font-size: 15px;
-        }
-
-        .sobremimMain{
-            font-size: 40px;
-        }
-
-        .descMain{
-            font-size: 30px;
-        }
-
-        .titulopartidoMain{
-            font-size: 40px;
-        }
-
-        .descpartidoMain{
-            font-size: 30px;
-        }
-
-        .tituloBlog{
-            font-size: 40px;
-        }
-
-        .descBlog{
-            font-size: 30px;
-        }
-
-        .BlogMain3{
-            font-size: 20px;
-        }
-
-        .DataMain3{
-            font-size: 20px;
-        }
-
-        .PpartidoMain{
-            font-size: 20px;
-        }
-
-        .infoMain{
-            font-size: 20px;
-        }
-
-        .p_texto{
-            font-size: 25px;
-        }
-      } /* OK */
+    .sectionHeader{
+        margin-top: 120px;
+    }
+  }
       
       /* Estilos para telas médias (1200px a 1439px) */
       @media (min-width: 1200px) and (max-width: 1439px) {
         .navigationMobile{
             display: none;
         }
-
+    
         .navigation{
             align-items: end;
         }
-
-        .imgValeria{
+    
+        .sectionMain1{
+            flex-direction: column-reverse;
+        }
+    
+        .divSobremimMain{
+            width: 100%;
+            align-items: start;
+        }
+    
+        .divSobremimMain_div1{
             width: 100%;
         }
-
+    
+        .divSobremimMain_div2{
+            display: none;
+        }
         .sectionHeader{
             margin-top: 15%;
         }
-
+    
         .h2Header{
             display: block;
-        }
-
-        .btnFalecomigo{
-            height: 70px;
-            font-size: 40px;
-            width: 280px;
-            padding-left: 0px;
-            padding-right: 0px;
-        }
-
-        #btnInstagram, #btnWhatsapp{
-            width: 40px;
-        }
-        .btnInstagram, .btnWhatsapp{
-            height: 70px;
-            width: 70px;
         }
         
         .h3Footer{
@@ -1027,55 +994,74 @@ footer{
         .pFooter2{
             font-size: 15px;
         }
-
+    
         .sobremimMain{
             font-size: 40px;
         }
-
+    
         .descMain{
             font-size: 25px;
         }
-
-        .imgLutadora{
-            width: 100%;
+    
+        .divimgLutadora{
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
-
+    
+    
+    
         .titulopartidoMain{
             font-size: 40px;
         }
-
+    
         .descpartidoMain{
             font-size: 25px;
         }
-
+    
         .tituloBlog{
             font-size: 40px;
         }
-
+    
         .descBlog{
             font-size: 30px;
         }
-
+    
         .BlogMain3{
             font-size: 20px;
         }
-
+    
         .DataMain3{
             font-size: 20px;
         }
-
+    
         .PpartidoMain{
             font-size: 20px;
         }
-
+    
         .infoMain{
             font-size: 20px;
         }
-
+    
         .p_texto{
             font-size: 25px;
         }
-
+    
+        .sectionMain2{
+            width: 90%;
+        }
+    
+        .sectionFooter{
+            width: 90%;
+        }
+    
+        .sectionFooter2{
+            width: 90%;
+        }
+        
+        .sectionAgradecimentos{
+            width: 90%;
+        }
     
         .descBlog{
             max-height: 300px;
@@ -1087,7 +1073,11 @@ footer{
             display: flex;
             justify-content: end;
         }
-      } /* OK */
+    
+        .sectionHeader{
+            margin-top: 120px;
+        }
+      }
       
       
       /* Estilos para telas grandes (1440px e acima) */
@@ -1111,22 +1101,7 @@ footer{
         .h2Header{
             display: block;
         }
-
-        .btnFalecomigo{
-            height: 70px;
-            font-size: 40px;
-            width: 280px;
-            padding-left: 0px;
-            padding-right: 0px;
-        }
-
-        #btnInstagram, #btnWhatsapp{
-            width: 40px;
-        }
-        .btnInstagram, .btnWhatsapp{
-            height: 70px;
-            width: 70px;
-        }
+        
         
         .h3Footer{
             font-size: 30px;
@@ -1150,7 +1125,7 @@ footer{
         }
 
         .titulopartidoMain{
-            font-size: 40px;
+            font-size: 30px;
         }
 
         .descpartidoMain{
